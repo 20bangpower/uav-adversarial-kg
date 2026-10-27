@@ -1,0 +1,1027 @@
+{
+  "checked_at": "2026-10-26",
+  "overall": "PASS",
+  "paper_count": 53,
+  "year_counts": {
+    "2023": 7,
+    "2024": 13,
+    "2025": 16,
+    "2026": 17
+  },
+  "venue_counts": {
+    "USENIX Security": 7,
+    "ACM CCS": 4,
+    "IEEE S&P": 6,
+    "NDSS": 9,
+    "IEEE TDSC": 10,
+    "IEEE TIFS": 11,
+    "ACM AsiaCCS": 3,
+    "ACM TOPS": 1,
+    "IEEE EuroS&P": 2
+  },
+  "granularity_counts": {
+    "具体型号": 22,
+    "模型族": 19,
+    "商用系统": 1,
+    "模型族（三类）": 1,
+    "未披露": 1,
+    "信号处理": 2,
+    "具体系统": 2,
+    "具体算法": 1,
+    "系统级": 4
+  },
+  "stage_counts": {
+    "S1": 38,
+    "S2": 5,
+    "S3": 1,
+    "S4": 2,
+    "S5": 2,
+    "S6": 1,
+    "S7": 4
+  },
+  "kg": {
+    "nodes": 111,
+    "links": 212,
+    "node_types": {
+      "stage": 7,
+      "access": 10,
+      "model": 41,
+      "paper": 53
+    },
+    "link_types": {
+      "stage": 63,
+      "access": 59,
+      "model": 90
+    }
+  },
+  "source_audit": {
+    "covered": 53,
+    "status_counts": {
+      "OFFICIAL_URL": 7,
+      "CROSSREF_OK": 46
+    },
+    "min_title_similarity": 0.9272
+  },
+  "checks": [
+    {
+      "check": "论文总数",
+      "ok": true,
+      "detail": "53"
+    },
+    {
+      "check": "编号连续且唯一",
+      "ok": true,
+      "detail": "min=1, max=53"
+    },
+    {
+      "check": "题名唯一",
+      "ok": true,
+      "detail": "unique=53"
+    },
+    {
+      "check": "DOI/URL 唯一",
+      "ok": true,
+      "detail": "unique=53"
+    },
+    {
+      "check": "年份窗口",
+      "ok": true,
+      "detail": "Counter({2026: 17, 2025: 16, 2024: 13, 2023: 7})"
+    },
+    {
+      "check": "场馆范围",
+      "ok": true,
+      "detail": "Counter({'IEEE TIFS': 11, 'IEEE TDSC': 10, 'NDSS': 9, 'USENIX Security': 7, 'IEEE S&P': 6, 'ACM CCS': 4, 'ACM AsiaCCS': 3, 'IEEE EuroS&P': 2, 'ACM TOPS': 1})"
+    },
+    {
+      "check": "模型粒度分布",
+      "ok": true,
+      "detail": "Counter({'具体型号': 22, '模型族': 19, '系统级': 4, '信号处理': 2, '具体系统': 2, '商用系统': 1, '模型族（三类）': 1, '未披露': 1, '具体算法': 1})"
+    },
+    {
+      "check": "图谱论文节点",
+      "ok": true,
+      "detail": "53"
+    },
+    {
+      "check": "图谱阶段节点",
+      "ok": true,
+      "detail": "7"
+    },
+    {
+      "check": "图谱接入节点",
+      "ok": true,
+      "detail": "10"
+    },
+    {
+      "check": "图谱模型节点",
+      "ok": true,
+      "detail": "41"
+    },
+    {
+      "check": "图谱总节点",
+      "ok": true,
+      "detail": "111"
+    },
+    {
+      "check": "图谱总关系",
+      "ok": true,
+      "detail": "212"
+    },
+    {
+      "check": "节点 ID 唯一",
+      "ok": true,
+      "detail": "duplicate node id"
+    },
+    {
+      "check": "关系端点存在",
+      "ok": true,
+      "detail": "dangling endpoint"
+    },
+    {
+      "check": "关系类型计数",
+      "ok": true,
+      "detail": "Counter({'model': 90, 'stage': 63, 'access': 59})"
+    },
+    {
+      "check": "次阶段关系计数",
+      "ok": true,
+      "detail": "secondary stage"
+    },
+    {
+      "check": "阶段计数",
+      "ok": true,
+      "detail": "{'S1': 38, 'S2': 5, 'S3': 1, 'S4': 2, 'S5': 2, 'S6': 1, 'S7': 4}"
+    },
+    {
+      "check": "每篇论文映射完整",
+      "ok": true,
+      "detail": "missing mapping"
+    },
+    {
+      "check": "图谱元数据",
+      "ok": true,
+      "detail": "{'title': '无人系统对抗样本攻击知识图谱', 'subtitle': '2023–2026 安全顶会/顶刊 · 阶段 × 接入 × 模型', 'built': '2026-10-26', 'paper_count': 53, 'stage_count': 7, 'access_count': 10, 'model_count': 41, 'edge_count': 212}"
+    },
+    {
+      "check": "来源审计覆盖",
+      "ok": true,
+      "detail": "audit=53"
+    },
+    {
+      "check": "来源审计状态",
+      "ok": true,
+      "detail": "Counter({'CROSSREF_OK': 46, 'OFFICIAL_URL': 7})"
+    },
+    {
+      "check": "来源题名一致 #1",
+      "ok": true,
+      "detail": "TPatch: A Triggered Physical Adversarial Patch != TPatch: A Triggered Physical Adversarial Patch"
+    },
+    {
+      "check": "来源年份一致 #1",
+      "ok": true,
+      "detail": "2023 != 2023"
+    },
+    {
+      "check": "来源 HTTP #1",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #2",
+      "ok": true,
+      "detail": "ControlLoc: Physical-World Hijacking Attack on Camera-based Perception in Autonomous Driving != ControlLoc: Physical-World Hijacking Attack on Camera-based Perception in Autonomous Driving"
+    },
+    {
+      "check": "来源年份一致 #2",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #2",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #3",
+      "ok": true,
+      "detail": "Investigating Physical Latency Attacks Against Camera-Based Perception (Detstorm) != Investigating Physical Latency Attacks Against Camera-Based Perception (Detstorm)"
+    },
+    {
+      "check": "来源年份一致 #3",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #3",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #4",
+      "ok": true,
+      "detail": "π-Jack: Physical-World Adversarial Attack on Monocular Depth Estimation with Perspective Hijacking != π-Jack: Physical-World Adversarial Attack on Monocular Depth Estimation with Perspective Hijacking"
+    },
+    {
+      "check": "来源年份一致 #4",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #4",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #5",
+      "ok": true,
+      "detail": "Adversary is on the Road: Attacks on Visual SLAM using Unnoticeable Adversarial Patch != Adversary is on the Road: Attacks on Visual SLAM using Unnoticeable Adversarial Patch"
+    },
+    {
+      "check": "来源年份一致 #5",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #5",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #6",
+      "ok": true,
+      "detail": "Invisible Reflections: Leveraging Infrared Laser Reflections to Target Traffic Sign Perception != Invisible Reflections: Leveraging Infrared Laser Reflections to Target Traffic Sign Perception"
+    },
+    {
+      "check": "来源年份一致 #6",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #6",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #7",
+      "ok": true,
+      "detail": "Revisiting Physical-World Adversarial Attack on Traffic Sign Recognition: A Commercial Systems Perspective != Revisiting Physical-World Adversarial Attack on Traffic Sign Recognition: A Commercial Systems Perspective"
+    },
+    {
+      "check": "来源年份一致 #7",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #7",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #8",
+      "ok": true,
+      "detail": "Targeted Physical Evasion Attacks in the Near-Infrared Domain != Targeted Physical Evasion Attacks in the Near-Infrared Domain"
+    },
+    {
+      "check": "来源年份一致 #8",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #8",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #9",
+      "ok": true,
+      "detail": "NarAdv: Natural-Style Physical Adversarial Attack on Traffic Sign Detection for Autonomous Vehicles != NarAdv: Natural-Style Physical Adversarial Attack on Traffic Sign Detection for Autonomous Vehicles"
+    },
+    {
+      "check": "来源年份一致 #9",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #9",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #10",
+      "ok": true,
+      "detail": "FIGhost: Fluorescent Ink-Based Stealthy and Flexible Backdoor Attacks on Physical Traffic Sign Recognition != FIGhost: Fluorescent Ink-Based Stealthy and Flexible Backdoor Attacks on Physical Traffic Sign Recognition"
+    },
+    {
+      "check": "来源年份一致 #10",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #10",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #11",
+      "ok": true,
+      "detail": "Stealthy and Effective Physical Adversarial Attacks in Autonomous Driving != Stealthy and Effective Physical Adversarial Attacks in Autonomous Driving"
+    },
+    {
+      "check": "来源年份一致 #11",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #11",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #12",
+      "ok": true,
+      "detail": "L-HAWK: A Controllable Physical Adversarial Patch Against a Long-Distance Target != L-HAWK: A Controllable Physical Adversarial Patch Against a Long-Distance Target"
+    },
+    {
+      "check": "来源年份一致 #12",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #12",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #13",
+      "ok": true,
+      "detail": "FlyTrap: Physical Distance-Pulling Attack Towards Camera-based Autonomous Target Tracking Systems != FlyTrap: Physical Distance-Pulling Attack Towards Camera-based Autonomous Target Tracking Systems"
+    },
+    {
+      "check": "来源年份一致 #13",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #13",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #14",
+      "ok": true,
+      "detail": "Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection != Banshee: Target Switch Attacks on Gimbal-Stabilized Visual Tracking Systems via Acoustic Injection"
+    },
+    {
+      "check": "来源年份一致 #14",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #14",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #15",
+      "ok": true,
+      "detail": "A Unified Perspective From Diffuse Deviation to Target Hijacking (MSAA) != A Unified Perspective From Diffuse Deviation to Target Hijacking (MSAA)"
+    },
+    {
+      "check": "来源年份一致 #15",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #15",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #16",
+      "ok": true,
+      "detail": "Pluggable Attack for Visual Object Tracking != Pluggable Attack for Visual Object Tracking"
+    },
+    {
+      "check": "来源年份一致 #16",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #16",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #17",
+      "ok": true,
+      "detail": "PLA-LiDAR: Physical Laser Attacks against LiDAR-based 3D Object Detection in Autonomous Vehicle != PLA-LiDAR: Physical Laser Attacks against LiDAR-based 3D Object Detection in Autonomous Vehicle"
+    },
+    {
+      "check": "来源年份一致 #17",
+      "ok": true,
+      "detail": "2023 != 2023"
+    },
+    {
+      "check": "来源 HTTP #17",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #18",
+      "ok": true,
+      "detail": "AE-Morpher: Improve Physical Robustness of Adversarial Objects against LiDAR-based Detectors via Object Reconstruction != AE-Morpher: Improve Physical Robustness of Adversarial Objects against LiDAR-based Detectors via Object Reconstruction"
+    },
+    {
+      "check": "来源年份一致 #18",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #18",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #19",
+      "ok": true,
+      "detail": "Invisible but Detected: Physical Adversarial Shadow Attack and Defense on LiDAR Object Detection != Invisible but Detected: Physical Adversarial Shadow Attack and Defense on LiDAR Object Detection"
+    },
+    {
+      "check": "来源年份一致 #19",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #19",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #20",
+      "ok": true,
+      "detail": "Weaponizing Reflectivity for Pointcloud Deception with Forged Invisible Geometries (Stride) != Weaponizing Reflectivity for Pointcloud Deception with Forged Invisible Geometries (Stride)"
+    },
+    {
+      "check": "来源年份一致 #20",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #20",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #21",
+      "ok": true,
+      "detail": "You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks != You Can't See Me: Physical Removal Attacks on LiDAR-based Autonomous Vehicles Driving Frameworks"
+    },
+    {
+      "check": "来源年份一致 #21",
+      "ok": true,
+      "detail": "2023 != 2023"
+    },
+    {
+      "check": "来源 HTTP #21",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #22",
+      "ok": true,
+      "detail": "LiDAR Spoofing Meets the New-Gen: Capability Improvements, Broken Assumptions, and New Attack Strategies != LiDAR Spoofing Meets the New-Gen: Capability Improvements, Broken Assumptions, and New Attack Strategies"
+    },
+    {
+      "check": "来源年份一致 #22",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #22",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #23",
+      "ok": true,
+      "detail": "On the Realism of LiDAR Spoofing Attacks against Autonomous Driving Vehicle at High Speed and Long Distance != On the Realism of LiDAR Spoofing Attacks against Autonomous Driving Vehicle at High Speed and Long Distance"
+    },
+    {
+      "check": "来源年份一致 #23",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #23",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #24",
+      "ok": true,
+      "detail": "3DGAA: Realistic and Robust 3D Gaussian-Based Adversarial Attack for Autonomous Driving != 3DGAA: Realistic and Robust 3D Gaussian-Based Adversarial Attack for Autonomous Driving"
+    },
+    {
+      "check": "来源年份一致 #24",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #24",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #25",
+      "ok": true,
+      "detail": "AdvNeRF: Generating 3D Adversarial Meshes With NeRF to Fool Driving Vehicles != AdvNeRF: Generating 3D Adversarial Meshes With NeRF to Fool Driving Vehicles"
+    },
+    {
+      "check": "来源年份一致 #25",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #25",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #26",
+      "ok": true,
+      "detail": "Adversarial Fog: Exploiting the Vulnerabilities of LiDAR Point Cloud Preprocessing Filters != Adversarial Fog: Exploiting the Vulnerabilities of LiDAR Point Cloud Preprocessing Filters"
+    },
+    {
+      "check": "来源年份一致 #26",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #26",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #27",
+      "ok": true,
+      "detail": "Deformable 3-D Point Cloud Perturbations Using Cage-Based Deformation for Semantic Consistency != Deformable 3-D Point Cloud Perturbations Using Cage-Based Deformation for Semantic Consistency"
+    },
+    {
+      "check": "来源年份一致 #27",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #27",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #28",
+      "ok": true,
+      "detail": "Hard-Label Black-Box Attacks on 3D Point Clouds != Hard-Label Black-Box Attacks on 3D Point Clouds"
+    },
+    {
+      "check": "来源年份一致 #28",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #28",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #29",
+      "ok": true,
+      "detail": "Affinity Backdoor Attacks in Point Clouds: A Novel Method Resilient to Corruption != Affinity Backdoor Attacks in Point Clouds: A Novel Method Resilient to Corruption"
+    },
+    {
+      "check": "来源年份一致 #29",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #29",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #30",
+      "ok": true,
+      "detail": "Robust Adversarial Patch for Object Detection Using Self-Similarity for Multiscale Attacks != Robust Adversarial Patch for Object Detection Using Self-Similarity for Multiscale Attacks"
+    },
+    {
+      "check": "来源年份一致 #30",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #30",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #31",
+      "ok": true,
+      "detail": "TileMask: A Passive-Reflection-based Attack against mmWave Radar Object Detection in Autonomous Driving != TileMask: A Passive-Reflection-based Attack against mmWave Radar Object Detection in Autonomous Driving"
+    },
+    {
+      "check": "来源年份一致 #31",
+      "ok": true,
+      "detail": "2023 != 2023"
+    },
+    {
+      "check": "来源 HTTP #31",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #32",
+      "ok": true,
+      "detail": "MadRadar: A Black-Box Physical Layer Attack Framework on mmWave Automotive FMCW Radars != MadRadar: A Black-Box Physical Layer Attack Framework on mmWave Automotive FMCW Radars"
+    },
+    {
+      "check": "来源年份一致 #32",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #32",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #33",
+      "ok": true,
+      "detail": "mmSpoof: Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array != mmSpoof: Resilient Spoofing of Automotive Millimeter-wave Radars using Reflect Array"
+    },
+    {
+      "check": "来源年份一致 #33",
+      "ok": true,
+      "detail": "2023 != 2023"
+    },
+    {
+      "check": "来源 HTTP #33",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #34",
+      "ok": true,
+      "detail": "Asymmetry Vulnerability and Physical Attacks on Online Map Construction for Autonomous Driving != Asymmetry Vulnerability and Physical Attacks on Online Map Construction for Autonomous Driving"
+    },
+    {
+      "check": "来源年份一致 #34",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #34",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #35",
+      "ok": true,
+      "detail": "Loki: Physical-World Adversarial Attacks on Wireless Indoor Localization via Differentiable Object Placement != Loki: Physical-World Adversarial Attacks on Wireless Indoor Localization via Differentiable Object Placement"
+    },
+    {
+      "check": "来源年份一致 #35",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #35",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #36",
+      "ok": true,
+      "detail": "Adversarial Examples Against WiFi Fingerprint-Based Localization in the Physical World != Adversarial Examples Against WiFi Fingerprint-Based Localization in the Physical World"
+    },
+    {
+      "check": "来源年份一致 #36",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #36",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #37",
+      "ok": true,
+      "detail": "SSD: A State-Based Stealthy Backdoor Attack for IMU/GNSS Navigation System in UAV Route Planning != SSD: A State-Based Stealthy Backdoor Attack for IMU/GNSS Navigation System in UAV Route Planning"
+    },
+    {
+      "check": "来源年份一致 #37",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #37",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #38",
+      "ok": true,
+      "detail": "Discovering Adversarial Driving Maneuvers against Autonomous Vehicles (ACERO) != Discovering Adversarial Driving Maneuvers against Autonomous Vehicles (ACERO)"
+    },
+    {
+      "check": "来源年份一致 #38",
+      "ok": true,
+      "detail": "2023 != 2023"
+    },
+    {
+      "check": "来源 HTTP #38",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #39",
+      "ok": true,
+      "detail": "Safe Driving Adversarial Trajectory Can Mislead: Toward More Stealthy Adversarial Attack Against Autonomous Driving Prediction Module != Safe Driving Adversarial Trajectory Can Mislead: Toward More Stealthy Adversarial Attack Against Autonomous Driving Prediction Module"
+    },
+    {
+      "check": "来源年份一致 #39",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #39",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #40",
+      "ok": true,
+      "detail": "SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems != SUB-PLAY: Adversarial Policies against Partially Observed Multi-Agent Reinforcement Learning Systems"
+    },
+    {
+      "check": "来源年份一致 #40",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #40",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #41",
+      "ok": true,
+      "detail": "No Trespassing: Ground-View Adversarial Patches for Privacy-Aware Management in COTS Robot Vacuum Cleaner != No Trespassing: Ground-View Adversarial Patches for Privacy-Aware Management in COTS Robot Vacuum Cleaner"
+    },
+    {
+      "check": "来源年份一致 #41",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #41",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #42",
+      "ok": true,
+      "detail": "SoK: Rethinking Sensor Spoofing Attacks against Robotic Vehicles from a Systematic View != SoK: Rethinking Sensor Spoofing Attacks against Robotic Vehicles from a Systematic View"
+    },
+    {
+      "check": "来源年份一致 #42",
+      "ok": true,
+      "detail": "2023 != 2023"
+    },
+    {
+      "check": "来源 HTTP #42",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #43",
+      "ok": true,
+      "detail": "A Systematic Study of Physical Sensor Attack Hardness != A Systematic Study of Physical Sensor Attack Hardness"
+    },
+    {
+      "check": "来源年份一致 #43",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #43",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #44",
+      "ok": true,
+      "detail": "Adversarial Computer Vision via Acoustic Manipulation of Camera Sensors != Adversarial Computer Vision via Acoustic Manipulation of Camera Sensors"
+    },
+    {
+      "check": "来源年份一致 #44",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #44",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #45",
+      "ok": true,
+      "detail": "MagShadow: Physical Adversarial Example Attacks via Electromagnetic Injection != MagShadow: Physical Adversarial Example Attacks via Electromagnetic Injection"
+    },
+    {
+      "check": "来源年份一致 #45",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #45",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #46",
+      "ok": true,
+      "detail": "Adversarial Wear and Tear: Exploiting Natural Damage for Generating Physical-World Adversarial Examples != Adversarial Wear and Tear: Exploiting Natural Damage for Generating Physical-World Adversarial Examples"
+    },
+    {
+      "check": "来源年份一致 #46",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #46",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #47",
+      "ok": true,
+      "detail": "Towards Patch-Based Noise Compression for Adversarial Attack Against Transformer-Based Visual Tracking != Towards Patch-Based Noise Compression for Adversarial Attack Against Transformer-Based Visual Tracking"
+    },
+    {
+      "check": "来源年份一致 #47",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #47",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #48",
+      "ok": true,
+      "detail": "PhantomLiDAR: Cross-modality Signal Injection Attacks against LiDAR != PhantomLiDAR: Cross-modality Signal Injection Attacks against LiDAR"
+    },
+    {
+      "check": "来源年份一致 #48",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #48",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #49",
+      "ok": true,
+      "detail": "Learn from Human-driving Accidents to Attack Autonomous Driving: Practical Multi-Vehicle Attacks on Decision-making != Learn from Human-driving Accidents to Attack Autonomous Driving: Practical Multi-Vehicle Attacks on Decision-making"
+    },
+    {
+      "check": "来源年份一致 #49",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #49",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #50",
+      "ok": true,
+      "detail": "DOEPatch: Dynamically Optimized Ensemble Model for Adversarial Patches Generation != DOEPatch: Dynamically Optimized Ensemble Model for Adversarial Patches Generation"
+    },
+    {
+      "check": "来源年份一致 #50",
+      "ok": true,
+      "detail": "2024 != 2024"
+    },
+    {
+      "check": "来源 HTTP #50",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #51",
+      "ok": true,
+      "detail": "SoK: The Cyber Attack Surface of Unmanned Vehicles (UxVs) != SoK: The Cyber Attack Surface of Unmanned Vehicles (UxVs)"
+    },
+    {
+      "check": "来源年份一致 #51",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #51",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #52",
+      "ok": true,
+      "detail": "SoK: Security of the Image Processing Pipeline for Camera-based Sensing in Autonomous Vehicles != SoK: Security of the Image Processing Pipeline for Camera-based Sensing in Autonomous Vehicles"
+    },
+    {
+      "check": "来源年份一致 #52",
+      "ok": true,
+      "detail": "2026 != 2026"
+    },
+    {
+      "check": "来源 HTTP #52",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "来源题名一致 #53",
+      "ok": true,
+      "detail": "Runtime Stealthy Perception Attacks against DNN-based Adaptive Cruise Control Systems != Runtime Stealthy Perception Attacks against DNN-based Adaptive Cruise Control Systems"
+    },
+    {
+      "check": "来源年份一致 #53",
+      "ok": true,
+      "detail": "2025 != 2025"
+    },
+    {
+      "check": "来源 HTTP #53",
+      "ok": true,
+      "detail": "200"
+    },
+    {
+      "check": "Crossref 题名相似度",
+      "ok": true,
+      "detail": "min=0.9272"
+    },
+    {
+      "check": "Crossref 年份一致",
+      "ok": true,
+      "detail": "crossref year mismatch"
+    },
+    {
+      "check": "输出存在 安全顶会顶刊汇总_2023-2026.md",
+      "ok": true,
+      "detail": "C:\\Users\\67480\\Documents\\Codex\\2026-10-25\\new-chat\\outputs\\研究材料\\安全顶会顶刊汇总_2023-2026.md"
+    },
+    {
+      "check": "输出存在 论文清单_2023-2026.csv",
+      "ok": true,
+      "detail": "C:\\Users\\67480\\Documents\\Codex\\2026-10-25\\new-chat\\outputs\\数据表\\论文清单_2023-2026.csv"
+    },
+    {
+      "check": "输出存在 论文清单_2023-2026.xlsx",
+      "ok": true,
+      "detail": "C:\\Users\\67480\\Documents\\Codex\\2026-10-25\\new-chat\\outputs\\数据表\\论文清单_2023-2026.xlsx"
+    },
+    {
+      "check": "输出存在 无人系统对抗样本攻击_知识图谱_边表.csv",
+      "ok": true,
+      "detail": "C:\\Users\\67480\\Documents\\Codex\\2026-10-25\\new-chat\\work\\kg_source\\无人系统对抗样本攻击_知识图谱_边表.csv"
+    },
+    {
+      "check": "Markdown 总数",
+      "ok": true,
+      "detail": "paper count text"
+    },
+    {
+      "check": "Markdown 控制闭环",
+      "ok": true,
+      "detail": "Runtime ACC text"
+    },
+    {
+      "check": "图谱模板已填充",
+      "ok": true,
+      "detail": "placeholder remains"
+    },
+    {
+      "check": "图谱详情字符串修复",
+      "ok": true,
+      "detail": "countChips fallback"
+    },
+    {
+      "check": "图谱总数文案",
+      "ok": true,
+      "detail": "footer count"
+    }
+  ]
+}

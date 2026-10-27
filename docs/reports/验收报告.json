@@ -1,0 +1,561 @@
+{
+  "login": {
+    "lockVisible": true,
+    "title": "无人系统对抗样本攻击知识图谱 · 阶段方法分层版",
+    "hint": "paper2026",
+    "bodyWidth": 1440,
+    "scrollWidth": 1440,
+    "lockFits": true
+  },
+  "data": {
+    "papers": 53,
+    "stages": 7,
+    "methods": 6,
+    "subclasses": 14,
+    "techniques": 39,
+    "families": 8,
+    "models": 41,
+    "accesses": 10,
+    "cross": 9,
+    "stageSum": 53,
+    "methodSum": 53,
+    "abstracts": 52,
+    "missing": [
+      51
+    ],
+    "missingSummaries": [
+      51
+    ],
+    "summaries": 52,
+    "urls": 53,
+    "allUrlsHttp": true,
+    "allFields": true,
+    "allPapersReportAccess": true,
+    "allPapersReportModels": true,
+    "abstractCountMeta": 52,
+    "summaryCountMeta": 52,
+    "techniqueSum": 53,
+    "allTechniquesUsed": true,
+    "allImpact": true,
+    "exactCitations": 46,
+    "estimatedCitations": 7,
+    "impactWeights": "{\"citation\":0.6,\"recency\":0.1,\"venue\":0.3}"
+  },
+  "obsolete": {
+    "matrixTab": false,
+    "matrixView": false,
+    "matrixCells": 0,
+    "showFiltered": false,
+    "viewTabs": 3
+  },
+  "guide": {
+    "open": true,
+    "text": "阅读说明\ni\n如何阅读这张知识图谱\n阶段 → 方法大类 → 方法子类 → 具体手段 → 算法 / 模型 → 论文证据\n\n圆形关系网络用 7 个阶段轨道连接 53 篇论文；左侧方法侧边栏可按方法大类、方法子类和具体手段逐级点亮圆环与连线。圆形关系网络、攻击因果链与统计页使用同一批论文数据。\n\n01 · 七个系统阶段\nS1\n感知\n38\nS2\n定位/建图\n5\nS3\n预测\n1\nS4\n规划/决策\n2\nS5\n控制\n2\nS6\n协同\n1\nS7\n体系化/测量\n4\n02 · 六个方法大类、十四个子类与三十九个具体手段\nPHY\n物理形态与光学注入\n贴片、纹理、3D 物体、投影、激光、近红外、声学与电磁注入\n\nP1 贴片 / 纹理 / 物体 · 16 篇 / 7 手段　P2 投影 / 激光 / 红外干扰 · 5 篇 / 4 手段　P3 LiDAR / 点云光学欺骗 · 6 篇 / 3 手段　P4 声学 / 电磁 / 跨模态注入 · 4 篇 / 3 手段\n\nALG\n数字算法与表示攻击\n输入扰动、黑盒查询、特征/预处理/时序关联攻击\n\nD1 输入扰动 / 黑盒查询 · 3 篇 / 3 手段　D2 特征 / 预处理 / 时序关联 · 4 篇 / 4 手段\n\nSUP\n数据与模型供应链\n训练投毒、物理后门、状态触发与模型供应链\n\nC1 训练投毒 / 物理后门 · 2 篇 / 2 手段　C2 状态触发 / 供应链后门 · 1 篇 / 1 手段\n\nSIG\n信号与定位欺骗\n雷达/射频欺骗、GNSS/WiFi/无线定位信号操纵\n\nR1 雷达 / 射频欺骗 · 3 篇 / 3 手段　R2 GNSS / WiFi / 无线定位 · 1 篇 / 1 手段\n\nBEH\n行为与策略注入\n轨迹预测、规划行为、多智能体策略与场景级行为\n\nB1 轨迹 / 规划行为 · 2 篇 / 2 手段　B2 多智能体 / 场景策略 · 2 篇 / 2 手段\n\nSYS\n体系化与测量\nSoK、攻击面分类、测量研究与商用系统评估\n\nK1 SoK / 攻击面分类 · 3 篇 / 3 手段　K2 测量 / 商用系统评估 · 1 篇 / 1 手段\n\n03 · 方法细分参考\nTrusted-AI / adversarial-robustness-toolbox\nEvasion · Poisoning · Extraction · Inference ↗\nMITRE ATLAS\nCraft Adversarial Data · Physical Environment Access · Supply Chain ↗\nawesome-adversarial-machine-learning\n按图像、点云、强化学习与跟踪任务组织 ↗\nAwesome-Autonomous-Driving-Security\n自动驾驶攻击 / 防御与物理可实现性 ↗\nAdversarial Attacks on Autonomous Driving Systems in the Physical World: A Survey\nIEEE T-IV · 物理攻击多标签分类 ↗\n04 · 计数口径\n\n阶段计数来自论文主阶段字段；跨阶段论文只在主阶段计数一次，因此七个阶段合计为 53。方法大类与方法子类为本图谱的分类字段，跨阶段、接入方式与模型字段允许重叠。\n\n交互说明：点击论文圆环查看论文摘要、攻击链路、分类信息与原文链接；点击阶段枢纽查看阶段汇总；点击左侧方法层级点亮全部相关圆环与连线。",
+    "sourceLinks": 5
+  },
+  "cluster": {
+    "visible": true,
+    "activeTab": "cluster",
+    "stages": 7,
+    "papers": 53,
+    "paperLinks": 53,
+    "crossEdges": 3,
+    "coreNodes": 0,
+    "coreLinks": 0,
+    "railMethods": 7,
+    "railSubclasses": 14,
+    "railTechniques": 39,
+    "railButtons": [
+      "all",
+      "PHY",
+      "ALG",
+      "SUP",
+      "SIG",
+      "BEH",
+      "SYS"
+    ],
+    "railColors": [
+      {
+        "id": "PHY",
+        "expected": "rgb(37, 99, 235)",
+        "parent": "rgb(37, 99, 235)",
+        "subCount": 4,
+        "expectedSubCount": 4,
+        "techniqueCount": 17,
+        "expectedTechniqueCount": 17,
+        "subMatch": true,
+        "techniqueMatch": true
+      },
+      {
+        "id": "ALG",
+        "expected": "rgb(124, 58, 237)",
+        "parent": "rgb(124, 58, 237)",
+        "subCount": 2,
+        "expectedSubCount": 2,
+        "techniqueCount": 7,
+        "expectedTechniqueCount": 7,
+        "subMatch": true,
+        "techniqueMatch": true
+      },
+      {
+        "id": "SUP",
+        "expected": "rgb(220, 38, 38)",
+        "parent": "rgb(220, 38, 38)",
+        "subCount": 2,
+        "expectedSubCount": 2,
+        "techniqueCount": 3,
+        "expectedTechniqueCount": 3,
+        "subMatch": true,
+        "techniqueMatch": true
+      },
+      {
+        "id": "SIG",
+        "expected": "rgb(202, 138, 4)",
+        "parent": "rgb(202, 138, 4)",
+        "subCount": 2,
+        "expectedSubCount": 2,
+        "techniqueCount": 4,
+        "expectedTechniqueCount": 4,
+        "subMatch": true,
+        "techniqueMatch": true
+      },
+      {
+        "id": "BEH",
+        "expected": "rgb(13, 148, 136)",
+        "parent": "rgb(13, 148, 136)",
+        "subCount": 2,
+        "expectedSubCount": 2,
+        "techniqueCount": 4,
+        "expectedTechniqueCount": 4,
+        "subMatch": true,
+        "techniqueMatch": true
+      },
+      {
+        "id": "SYS",
+        "expected": "rgb(101, 163, 13)",
+        "parent": "rgb(101, 163, 13)",
+        "subCount": 2,
+        "expectedSubCount": 2,
+        "techniqueCount": 4,
+        "expectedTechniqueCount": 4,
+        "subMatch": true,
+        "techniqueMatch": true
+      }
+    ],
+    "bodyWidth": 1440,
+    "scrollWidth": 1440,
+    "impactVisual": {
+      "highRadius": 16.29,
+      "lowRadius": 12.89,
+      "highDistance": 173.16,
+      "lowDistance": 234.00004807691815
+    },
+    "s1LaneCounts": {
+      "173": 13,
+      "205": 13,
+      "234": 12
+    },
+    "s1LaneDistances": [
+      234,
+      205,
+      173
+    ],
+    "overlapPairs": 0,
+    "overlapDetails": [],
+    "edgeMargin": 2.6,
+    "fonts": {
+      "body": 14,
+      "heading": 13,
+      "rail": 14.2,
+      "paperId": 8.4
+    }
+  },
+  "viewport": {
+    "widthBefore": 300,
+    "widthAfterDrag": 400,
+    "ariaWidth": 400,
+    "widthReset": 300,
+    "railXBefore": 18,
+    "railXAfterZoom": 18,
+    "railWidthAfterZoom": 300,
+    "baseWidth": 1240,
+    "zoomWidth": 1033.3299560546875,
+    "zoomLabel": "120%",
+    "note": "点击圆环查看论文摘要、攻击链路、分类信息与原文链接 · 拖动空白处平移",
+    "railFont": 14.2,
+    "railMetaFont": 12,
+    "railWrap": "normal",
+    "techFont": 11.5,
+    "subFont": 12.5,
+    "resizerCursor": "col-resize"
+  },
+  "methodFocus": {
+    "pressed": "true",
+    "litPapers": 31,
+    "focusedPapers": 31,
+    "litLinks": 31,
+    "litStages": 3,
+    "litCross": 3,
+    "dimPapers": 22,
+    "hiddenPapers": 0,
+    "allFocusArePhy": true,
+    "result": "显示 31 / 53",
+    "methodSelect": "PHY",
+    "cornerNote": "物理 / 光学 · 匹配 31 篇 · 其余 22 个节点降亮 · 3 个阶段",
+    "activeRail": "PHY",
+    "allRailPressed": [
+      "PHY"
+    ]
+  },
+  "methodReset": {
+    "litPapers": 0,
+    "litLinks": 0,
+    "dimPapers": 0,
+    "result": "显示 53 / 53",
+    "activeRail": "all"
+  },
+  "algFocus": {
+    "litPapers": 7,
+    "focusedPapers": 7,
+    "litLinks": 7,
+    "dimPapers": 46,
+    "result": "显示 7 / 53"
+  },
+  "techniqueFocus": {
+    "litPapers": 1,
+    "focusedPapers": 1,
+    "litLinks": 1,
+    "dimPapers": 52,
+    "result": "显示 1 / 53",
+    "activeTechnique": "TP-RADAR-SDR",
+    "expanded": true,
+    "cornerNote": "R1b SDR / FMCW 主动欺骗 · 匹配 1 篇 · 其余 52 个节点降亮 · 1 个阶段"
+  },
+  "stageFocus": {
+    "result": "显示 5 / 53",
+    "activePill": "S2",
+    "hiddenPapers": 48,
+    "visiblePapers": 5,
+    "allVisibleStageS2": true,
+    "hiddenPaperLinks": 48,
+    "hiddenStageNodes": 6,
+    "hiddenCrossEdges": 3,
+    "visibleStages": [
+      "S2"
+    ],
+    "litPapers": 5,
+    "litLinks": 5,
+    "litStages": 1,
+    "activeRail": "all",
+    "methodSelect": "all",
+    "stageClass": true,
+    "footHidden": true,
+    "viewWidth": 563.6400146484375,
+    "viewCenterDelta": 0.005005359649658203,
+    "zoomLabel": "220%",
+    "note": "S2 定位/建图 · 5 篇论文 · 已居中放大"
+  },
+  "stageFocusS1": {
+    "expectedCount": 38,
+    "result": "显示 38 / 53",
+    "hiddenPapers": 15,
+    "visiblePapers": 38,
+    "allVisibleMatch": true,
+    "hiddenPaperLinks": 15,
+    "hiddenStageNodes": 6,
+    "hiddenCrossEdges": 3,
+    "visibleStages": [
+      "S1"
+    ],
+    "litPapers": 38,
+    "litLinks": 38,
+    "litStages": 1,
+    "stageClass": true,
+    "viewWidth": 1013.52001953125,
+    "viewCenterDelta": 0.0000152587890625,
+    "orbitInside": true,
+    "zoomPercent": 122,
+    "note": "S1 感知 · 38 篇论文 · 已居中放大"
+  },
+  "stageFocusS3": {
+    "expectedCount": 1,
+    "result": "显示 1 / 53",
+    "hiddenPapers": 52,
+    "visiblePapers": 1,
+    "allVisibleMatch": true,
+    "hiddenPaperLinks": 52,
+    "hiddenStageNodes": 6,
+    "hiddenCrossEdges": 3,
+    "visibleStages": [
+      "S3"
+    ],
+    "litPapers": 1,
+    "litLinks": 1,
+    "litStages": 1,
+    "stageClass": true,
+    "viewWidth": 563.6400146484375,
+    "viewCenterDelta": 0.0050048828125,
+    "orbitInside": true,
+    "zoomPercent": 220,
+    "note": "S3 预测 · 1 篇论文 · 已居中放大"
+  },
+  "stageFocusS4": {
+    "expectedCount": 2,
+    "result": "显示 2 / 53",
+    "hiddenPapers": 51,
+    "visiblePapers": 2,
+    "allVisibleMatch": true,
+    "hiddenPaperLinks": 51,
+    "hiddenStageNodes": 6,
+    "hiddenCrossEdges": 3,
+    "visibleStages": [
+      "S4"
+    ],
+    "litPapers": 2,
+    "litLinks": 2,
+    "litStages": 1,
+    "stageClass": true,
+    "viewWidth": 563.6400146484375,
+    "viewCenterDelta": 0.005005538463592529,
+    "orbitInside": true,
+    "zoomPercent": 220,
+    "note": "S4 规划/决策 · 2 篇论文 · 已居中放大"
+  },
+  "stageFocusS5": {
+    "expectedCount": 2,
+    "result": "显示 2 / 53",
+    "hiddenPapers": 51,
+    "visiblePapers": 2,
+    "allVisibleMatch": true,
+    "hiddenPaperLinks": 51,
+    "hiddenStageNodes": 6,
+    "hiddenCrossEdges": 3,
+    "visibleStages": [
+      "S5"
+    ],
+    "litPapers": 2,
+    "litLinks": 2,
+    "litStages": 1,
+    "stageClass": true,
+    "viewWidth": 563.6400146484375,
+    "viewCenterDelta": 0.0050048828125,
+    "orbitInside": true,
+    "zoomPercent": 220,
+    "note": "S5 控制 · 2 篇论文 · 已居中放大"
+  },
+  "stageFocusS6": {
+    "expectedCount": 1,
+    "result": "显示 1 / 53",
+    "hiddenPapers": 52,
+    "visiblePapers": 1,
+    "allVisibleMatch": true,
+    "hiddenPaperLinks": 52,
+    "hiddenStageNodes": 6,
+    "hiddenCrossEdges": 3,
+    "visibleStages": [
+      "S6"
+    ],
+    "litPapers": 1,
+    "litLinks": 1,
+    "litStages": 1,
+    "stageClass": true,
+    "viewWidth": 563.6400146484375,
+    "viewCenterDelta": 0.0050201416015625,
+    "orbitInside": true,
+    "zoomPercent": 220,
+    "note": "S6 协同 · 1 篇论文 · 已居中放大"
+  },
+  "stageFocusS7": {
+    "expectedCount": 4,
+    "result": "显示 4 / 53",
+    "hiddenPapers": 49,
+    "visiblePapers": 4,
+    "allVisibleMatch": true,
+    "hiddenPaperLinks": 49,
+    "hiddenStageNodes": 6,
+    "hiddenCrossEdges": 3,
+    "visibleStages": [
+      "S7"
+    ],
+    "litPapers": 4,
+    "litLinks": 4,
+    "litStages": 1,
+    "stageClass": true,
+    "viewWidth": 563.6400146484375,
+    "viewCenterDelta": 0.0050201416015625,
+    "orbitInside": true,
+    "zoomPercent": 220,
+    "note": "S7 体系化/测量 · 4 篇论文 · 已居中放大"
+  },
+  "stageReset": {
+    "hiddenPapers": 0,
+    "hiddenStageNodes": 0,
+    "hiddenCrossEdges": 0,
+    "stageClass": false,
+    "viewWidth": 1240,
+    "zoomLabel": "100%",
+    "result": "显示 53 / 53",
+    "footHidden": false
+  },
+  "paperDetail": {
+    "open": true,
+    "title": "ControlLoc: Physical-World Hijacking Attack on Camera-based Perception in Autonomous Driving",
+    "href": "https://doi.org/10.1145/3719027.3744842",
+    "codeDot": true,
+    "codeHref": "https://github.com/ershang2/Controlloc",
+    "codeWidth": 9,
+    "codeHeight": 9,
+    "codeBackground": "rgb(34, 197, 94)",
+    "abstractLength": 664,
+    "abstractSource": "摘要来源：OpenAlex",
+    "chainText": "\n        \n          01\n          条件 / 攻击类型\n          位置/形状劫持补丁\n        \n        \n          02\n          接入方式\n          打印的物理对抗补丁，贴在最优位置\n        \n        \n          03\n          受影响算法 / 模型\n          ApoD、YOLOv3、YOLOv5、YOLOX；ApoT、BoT-SORT、ByteTrack、StrongSORT\n        \n        \n          04\n          论文报告后果\n          平均 ASR 约 98.1%，约为最佳基线的 4 倍\n        \n      ",
+    "chainSteps": 4,
+    "facts": [
+      "期刊内容",
+      "系统阶段",
+      "方法大类",
+      "方法子类",
+      "具体手段",
+      "攻击类型",
+      "接入方式",
+      "受影响算法 / 模型",
+      "模型粒度",
+      "实验平台",
+      "论文报告后果"
+    ],
+    "hasImpactPanel": true,
+    "impactText": "影响力指数\n55.8\n3 次引用 · OpenAlex\n引用分 32%\n时效分 67%\n期刊分 100%\n\n指数 = 100 ×（引用 60% + 时效 10% + 期刊内容 30%）",
+    "activeTab": "02",
+    "activePanel": "02",
+    "hasDetailHeading": true,
+    "hasClassification": true,
+    "hasVenueWord": false,
+    "hasForbiddenAnalysis": false,
+    "linkCount": 3,
+    "heroTop": 20,
+    "heroHeight": 343,
+    "contentOverflow": "hidden",
+    "panelOverflow": "auto",
+    "drawerWidth": 880,
+    "fonts": {
+      "abstract": 14,
+      "fact": 13.5,
+      "chain": 13.5,
+      "chainLabel": 11.5
+    }
+  },
+  "paperSummary": {
+    "activeTab": "01",
+    "activePanel": "01",
+    "text": "S1 感知\n物理 / 光学\n论文 02 / 53\nControlLoc: Physical-World Hijacking Attack on Camera-based Perception in Autonomous Driving\nACM CCS · 2025\nCCF-A\n单阶段归属\n打开原文 / DOI\n↗\n影响力指数\n55.8\n3 次引用 · OpenAlex\n引用分 32%\n时效分 67%\n期刊分 100%\n\n指数 = 100 ×（引用 60% + 时效 10% + 期刊内容 30%）\n\nPAPER SECTIONS\n论文信息\n01\n论文摘要\n摘要原文 · 内容概要\n02\n详细信息\n阶段 · 方法 · 模型\n03\n攻击链路\n条件 → 接入 → 模型 → 后果\n点击目录切换右侧内容\n01\n论文摘要\n摘要原文与内容概要\n\nRecent research shows that adversarial patches can attack object detectors in camera-based perception for Autonomous Driving (AD). However, camera-based perception includes more than object detection; it also involves Multiple Object Tracking (MOT), which enhances robustness by requiring consistent detection across multiple frames before affecting tracking and thus, driving decisions. This makes attacks on object detection alone less effective. To attack such robust systems, a digital hijacking attack has been proposed, aiming to induce dangerous scenarios such as collisions. However, this attack has limited effectiveness, especially in the physical world.\n\n摘要来源：OpenAlex\n\n内容概要\n\n论文在感知阶段研究位置/形状劫持补丁。接入方式：打印的物理对抗补丁，贴在最优位置。受影响算法 / 模型：ApoD、YOLOv3、YOLOv5、YOLOX；ApoT、BoT-SORT、ByteTrack、StrongSORT。论文报告效果：平均 ASR 约 98.1%，约为最佳基线的 4 倍。\n\nADVERSARIAL ATLAS · STAGE / METHOD EDITION\n原文 / DOI ↗",
+    "summaryLength": 146,
+    "summaryText": "论文在感知阶段研究位置/形状劫持补丁。接入方式：打印的物理对抗补丁，贴在最优位置。受影响算法 / 模型：ApoD、YOLOv3、YOLOv5、YOLOX；ApoT、BoT-SORT、ByteTrack、StrongSORT。论文报告效果：平均 ASR 约 98.1%，约为最佳基线的 4 倍。",
+    "heroTop": 20,
+    "heroHeight": 343
+  },
+  "paperChain": {
+    "activeTab": "03",
+    "text": "S1 感知\n物理 / 光学\n论文 02 / 53\nControlLoc: Physical-World Hijacking Attack on Camera-based Perception in Autonomous Driving\nACM CCS · 2025\nCCF-A\n单阶段归属\n打开原文 / DOI\n↗\n影响力指数\n55.8\n3 次引用 · OpenAlex\n引用分 32%\n时效分 67%\n期刊分 100%\n\n指数 = 100 ×（引用 60% + 时效 10% + 期刊内容 30%）\n\nPAPER SECTIONS\n论文信息\n01\n论文摘要\n摘要原文 · 内容概要\n02\n详细信息\n阶段 · 方法 · 模型\n03\n攻击链路\n条件 → 接入 → 模型 → 后果\n点击目录切换右侧内容\n03\n攻击链路\n论文报告的因果步骤\n01\n条件 / 攻击类型\n位置/形状劫持补丁\n02\n接入方式\n打印的物理对抗补丁，贴在最优位置\n03\n受影响算法 / 模型\nApoD、YOLOv3、YOLOv5、YOLOX；ApoT、BoT-SORT、ByteTrack、StrongSORT\n04\n论文报告后果\n平均 ASR 约 98.1%，约为最佳基线的 4 倍\nADVERSARIAL ATLAS · STAGE / METHOD EDITION\n原文 / DOI ↗",
+    "steps": 4
+  },
+  "missingAbstract": {
+    "title": "SoK: The Cyber Attack Surface of Unmanned Vehicles (UxVs)",
+    "text": "S7 体系化/测量\n体系 / 测量\n论文 51 / 53\nSoK: The Cyber Attack Surface of Unmanned Vehicles (UxVs)\nIEEE EuroS&P · 2026\nCCF-B\n单阶段归属\n打开原文 / DOI\n↗\n影响力指数\n31.6\n0 次引用 · Crossref\n引用分 0%\n时效分 100%\n期刊分 72%\n\n指数 = 100 ×（引用 60% + 时效 10% + 期刊内容 30%）\n\nPAPER SECTIONS\n论文信息\n01\n论文摘要\n摘要原文 · 内容概要\n02\n详细信息\n阶段 · 方法 · 模型\n03\n攻击链路\n条件 → 接入 → 模型 → 后果\n点击目录切换右侧内容\n01\n论文摘要\n摘要原文与内容概要\n\n官方摘要暂缺，请通过原文链接查看。\n\n摘要来源：官方摘要暂缺\n\n内容概要\n\n官方摘要暂缺，暂无内容概要。\n\nADVERSARIAL ATLAS · STAGE / METHOD EDITION\n原文 / DOI ↗",
+    "href": "https://doi.org/10.1109/EuroSP68448.2026.00031",
+    "abstract": "官方摘要暂缺，请通过原文链接查看。",
+    "hasSummaryLabel": true,
+    "summaryText": "官方摘要暂缺，暂无内容概要。",
+    "summaryEmpty": true,
+    "codeDot": false,
+    "chainSteps": 4
+  },
+  "stageEvidence": {
+    "title": "S1 感知",
+    "rows": 38,
+    "sources": 38,
+    "allHttp": true
+  },
+  "chain": {
+    "visible": true,
+    "stages": 7,
+    "methods": 6,
+    "techniques": 39,
+    "families": 8,
+    "edges": 109,
+    "stageEdges": 12,
+    "methodEdges": 39,
+    "familyEdges": 58,
+    "bodyWidth": 1440,
+    "scrollWidth": 1440,
+    "backgroundFill": "rgb(255, 255, 255)",
+    "cardFills": [
+      "rgb(255, 255, 255)",
+      "rgb(248, 251, 255)"
+    ],
+    "techniqueTitleSize": 11.2,
+    "scrollsVertically": true,
+    "matrixTextVisible": false
+  },
+  "chainTechnique": {
+    "drawerOpen": true,
+    "title": "R1b SDR / FMCW 主动欺骗",
+    "evidence": 1,
+    "sources": 1,
+    "body": "具体手段\n1\nR1b SDR / FMCW 主动欺骗\nR1 雷达 / 射频欺骗 · 1 篇论文\n\n用软件定义无线电实时估计参数并主动注入 FMCW 雷达信号。共 1 篇论文，涉及 1 个系统阶段。\n\n信号与定位欺骗\nR1 雷达 / 射频欺骗\nS1 感知\nEVIDENCE PAPERS · 1\n32\nMadRadar: A Black-Box Physical Layer Attack Framework on mmWave Automotive FMCW Radars\nS1 感知 · R1 雷达 / 射频欺骗 · R1b SDR / FMCW 主动欺骗 · NDSS 2024\nFMCW 雷达点云（非 DNN）\n›\n原文 ↗\n聚合列表中的每篇论文均提供原文 / DOI 链接。"
+  },
+  "stats": {
+    "open": true,
+    "kpis": [
+      "53",
+      "7",
+      "6",
+      "14",
+      "9"
+    ],
+    "heatCells": 0,
+    "impactRows": 12,
+    "impactTopScore": "90.0",
+    "tableRows": 53,
+    "tableSources": 53,
+    "tableTechniques": 53,
+    "techniqueAtlas": 39,
+    "tableAllHttp": true,
+    "crossPapers": 9,
+    "crossSources": 9,
+    "modelFamilyCards": 8,
+    "modelFamilyPaperSum": 65,
+    "modelFamilyChips": 41,
+    "modelFamilyReps": 24,
+    "modelFamilyLabels": [
+      "视觉检测器",
+      "LiDAR / 3D 感知",
+      "深度 / SLAM / 建图",
+      "跟踪 / 时序关联",
+      "端到端 / 规划控制",
+      "交通标志 / 专用识别",
+      "雷达 / 无线定位",
+      "系统 / 平台 / SoK"
+    ],
+    "modelFamilySection": true,
+    "forbiddenAnalysis": false,
+    "bodyWidth": 1440,
+    "scrollWidth": 1440
+  },
+  "statsPaper": {
+    "statsClosed": true,
+    "drawerOpen": true,
+    "title": "Targeted Physical Evasion Attacks in the Near-Infrared Domain",
+    "source": "https://doi.org/10.14722/ndss.2026.231568"
+  },
+  "desktop1280": {
+    "width": 1280,
+    "scrollWidth": 1280,
+    "clusterVisible": true,
+    "railWidth": 300,
+    "canvasWidth": 928
+  },
+  "resources": [],
+  "runtimeErrors": [],
+  "page": "C:\\Users\\67480\\Documents\\Codex\\2026-10-25\\new-chat\\outputs\\无人系统对抗样本攻击_知识图谱_阶段方法分层版.html",
+  "checkedAt": "2026-10-26T18:45:23.957Z"
+}
