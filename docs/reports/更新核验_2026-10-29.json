@@ -1,0 +1,260 @@
+{
+  "checked_at": "2026-10-29",
+  "overall": "PASS",
+  "page": "index.html",
+  "index_sha256": "6fbe721b3ec2725b8843ff9f5b93ad4493ac57f7163326a83369e24cd5b3336b",
+  "index_bytes": 522880,
+  "counts": {
+    "papers": 53,
+    "stages": 7,
+    "s1_targets": 4,
+    "s1_branches": 13,
+    "s1_branch_paper_sum": 38,
+    "s1_branch_unique_papers": 38,
+    "cross_papers": 9
+  },
+  "s1_targets": [
+    {
+      "code": "T1",
+      "label": "相机 / 视觉传感器",
+      "count": 16
+    },
+    {
+      "code": "T2",
+      "label": "LiDAR / 点云传感器",
+      "count": 9
+    },
+    {
+      "code": "T3",
+      "label": "毫米波雷达传感器",
+      "count": 3
+    },
+    {
+      "code": "T4",
+      "label": "感知算法 / 数据层",
+      "count": 10
+    }
+  ],
+  "s1_branches": [
+    {
+      "code": "T1a",
+      "label": "单目 2D 检测/分类",
+      "count": 6
+    },
+    {
+      "code": "T1b",
+      "label": "交通标志专用视觉",
+      "count": 6
+    },
+    {
+      "code": "T1c",
+      "label": "多视角/机器人视觉",
+      "count": 2
+    },
+    {
+      "code": "T1d",
+      "label": "相机信号注入",
+      "count": 2
+    },
+    {
+      "code": "T2a",
+      "label": "LiDAR 3D 检测",
+      "count": 5
+    },
+    {
+      "code": "T2b",
+      "label": "点云欺骗/闭环验证",
+      "count": 2
+    },
+    {
+      "code": "T2c",
+      "label": "跨模态/多传感器融合",
+      "count": 2
+    },
+    {
+      "code": "T3a",
+      "label": "学习型雷达检测",
+      "count": 1
+    },
+    {
+      "code": "T3b",
+      "label": "FMCW 信号层",
+      "count": 2
+    },
+    {
+      "code": "T4a",
+      "label": "点云分类与预处理",
+      "count": 4
+    },
+    {
+      "code": "T4b",
+      "label": "视觉单目标跟踪",
+      "count": 3
+    },
+    {
+      "code": "T4c",
+      "label": "单目深度/后门",
+      "count": 2
+    },
+    {
+      "code": "T4d",
+      "label": "运行时 ACC 链路",
+      "count": 1
+    }
+  ],
+  "data_files": [
+    {
+      "path": "docs/data/论文清单_2023-2026.csv",
+      "bytes": 25243
+    },
+    {
+      "path": "docs/data/阶段方法汇总.csv",
+      "bytes": 125631
+    },
+    {
+      "path": "docs/data/S1攻击目标与算法分支.csv",
+      "bytes": 2589
+    },
+    {
+      "path": "docs/data/论文清单_2023-2026.xlsx",
+      "bytes": 32461
+    }
+  ],
+  "cross_stage": {
+    "resultCount": "显示 9 / 53",
+    "litPapers": [
+      4,
+      13,
+      14,
+      23,
+      34,
+      37,
+      41,
+      44,
+      53
+    ],
+    "dimPapers": 44,
+    "litStages": [
+      "S1",
+      "S2",
+      "S5"
+    ],
+    "litTargets": [
+      "CAM",
+      "LIDAR",
+      "ALG"
+    ],
+    "litBranches": [
+      "CAM-MULTI",
+      "CAM-SIGNAL",
+      "LIDAR-SPOOF",
+      "ALG-DEPTH",
+      "ALG-RUNTIME"
+    ],
+    "litCrossEdges": 3,
+    "cornerNote": "跨阶段论文 · 9 篇已高亮 · 其余 44 个节点降亮"
+  },
+  "viewports": {
+    "desktop_1440": {
+      "bodyOverflow": false
+    },
+    "desktop_1280": {
+      "bodyOverflow": false,
+      "legendOverflow": false
+    }
+  },
+  "runtimeErrors": [],
+  "checks": [
+    {
+      "check": "S1 攻击目标数",
+      "ok": true,
+      "detail": "4"
+    },
+    {
+      "check": "S1 算法分支数",
+      "ok": true,
+      "detail": "13"
+    },
+    {
+      "check": "S1 分支论文总数",
+      "ok": true,
+      "detail": "38"
+    },
+    {
+      "check": "S1 分支论文唯一性",
+      "ok": true,
+      "detail": "38"
+    },
+    {
+      "check": "论文清单新增分类字段",
+      "ok": true,
+      "detail": "CSV header"
+    },
+    {
+      "check": "阶段方法汇总新增分类字段",
+      "ok": true,
+      "detail": "CSV header"
+    },
+    {
+      "check": "S1 分类汇总表行数",
+      "ok": true,
+      "detail": "14"
+    },
+    {
+      "check": "XLSX 存在",
+      "ok": true,
+      "detail": "32461"
+    },
+    {
+      "check": "分支标签重叠",
+      "ok": true,
+      "detail": "[]"
+    },
+    {
+      "check": "S1 直达聚焦",
+      "ok": true,
+      "detail": "true"
+    },
+    {
+      "check": "跨阶段高亮论文",
+      "ok": true,
+      "detail": "4,13,14,23,34,37,41,44,53"
+    },
+    {
+      "check": "跨阶段降亮节点",
+      "ok": true,
+      "detail": "44"
+    },
+    {
+      "check": "跨阶段结果计数",
+      "ok": true,
+      "detail": "显示 9 / 53"
+    },
+    {
+      "check": "1280 页面无横向溢出",
+      "ok": true,
+      "detail": "false"
+    },
+    {
+      "check": "1280 图例无溢出",
+      "ok": true,
+      "detail": "false"
+    },
+    {
+      "check": "运行时错误",
+      "ok": true,
+      "detail": "[]"
+    }
+  ],
+  "updated_assets": [
+    "index.html",
+    "assets/preview.png",
+    "assets/preview-s1-branches.png",
+    "assets/preview-cross-stage.png",
+    "docs/data/论文清单_2023-2026.csv",
+    "docs/data/论文清单_2023-2026.xlsx",
+    "docs/data/阶段方法汇总.csv",
+    "docs/data/S1攻击目标与算法分支.csv",
+    "README.md"
+  ]
+}
